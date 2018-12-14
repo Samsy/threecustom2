@@ -23070,10 +23070,10 @@
 		this.renderLIGHT = function (scene, camera, mesh, renderTarget, forceClear) { 
 
 			
-			// _currentGeometryProgram.geometry = null;
-			// _currentGeometryProgram.program = null;
-			// _currentGeometryProgram.wireframe = false;
-			// _currentMaterialId = - 1;
+			_currentGeometryProgram.geometry = null;
+			_currentGeometryProgram.program = null;
+			_currentGeometryProgram.wireframe = false;
+			_currentMaterialId = - 1;
 			
 			_currentCamera = null;
 
